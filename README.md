@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BankHotel
 
-## Getting Started
+**BankHotel** — це преміальний веб-сайт готелю, розроблений з використанням **Next.js 14**, **React 18** та **TypeScript**, з акцентом на елегантний дизайн, smooth scrolling, анімації та сучасні веб-технології. Проєкт ідеально підходить для презентації готелю або подібних закладів у класичному стильному стилі.
 
-First, run the development server:
+## ⚙️ Технологічний стек
 
-```bash
+- **Next.js 14** — серверний рендеринг, статичне та динамічне генерування сторінок
+- **React 18**
+- **TypeScript** — для покращеної типізації
+- **GSAP** — потужні інтерактивні анімації
+- **Framer Motion** — гнучка анімаційна система
+- **React Lenis** — плавне скролювання
+- **Styled Components** — сучасна стилізація
+- **ESLint** — підтримка якості коду
+
+## 🚀 Основні особливості
+
+- ⚡️ **Next.js 14** — SSR, швидке рендеринґ і SEO-оптимізація
+- 🎞 **GSAP + Framer Motion** — високоякісна анімація для блоків, текстів, переходів
+- 🌀 **Lenis Scroll** — плавна прокрутка (smooth scrolling)
+- 🎨 **Styled Components** — CSS-in-JS підхід до стилізації
+- 🔍 Акуратна типізація з **TypeScript**
+- 🧹 Аналіз коду через **ESLint + eslint-config-next**
+
+## 📦 Встановлення
+
+- bash
+git clone https://github.com/BogdanPavliv/bank-hotel.git
+cd tvl
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Команди
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+| Скрипт          | Опис                                           |
+| --------------- | ---------------------------------------------- |
+| `npm run dev`   | Запускає локальний сервер Next.js для розробки |
+| `npm run build` | Створює продакшен-білд за допомогою Next.js    |
+| `npm run start` | Запускає продакшен-версію сервера              |
+| `npm run lint`  | Запускає аналіз коду за допомогою ESLint       |
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🛠️ Розгортання
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Watch demo](https://bank-hotel-lviv.netlify.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# PocketPal
-# Bank-Hotel
+👨‍💻 Автор
+Богдан Павлів — Frontend Developer
+📧 [bogdan.pavliv@gmail.com]
+🌐 [My portfolio](https://bogdan-pavliv.netlify.app)

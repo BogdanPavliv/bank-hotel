@@ -26,7 +26,7 @@
 
 - bash
 git clone https://github.com/BogdanPavliv/bank-hotel.git
-cd tvl
+cd bank-hotel
 npm install
 npm run dev
 
